@@ -1,0 +1,88 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+releases/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Obsidian files
+*.md.bak
+
+# Temporary files
+tmp/
+temp/
+
+# Coverage reports
+coverage/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports
+*.tgz
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# parcel-bundler cache
+.cache/
+
+# next.js build output
+.next/
+
+# nuxt.js build output
+.nuxt/
+
+# vuepress build output
+.vuepress/dist/
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# ESBuild plugin cache
+.esbuild/
+
+# TypeScript cache
+.tsbuildinfo
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# Obsidian plugin specific
+*.zip
+*.tar.gz

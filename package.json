@@ -1,0 +1,66 @@
+{
+  "name": "obsidian-ai-assistant",
+  "version": "1.1.0",
+  "description": "AI Assistant plugin for Obsidian with local Ollama models and cloud API support",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "release": "node release.js",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "test:watch": "echo \"Error: no test specified\" && exit 0",
+    "clean": "rm -rf dist build releases",
+    "prebuild": "npm run clean",
+    "postbuild": "npm run lint",
+    "version": "node version-bump.mjs && git add manifest.json versions.json"
+  },
+  "keywords": [
+    "obsidian",
+    "ai",
+    "ollama",
+    "openai",
+    "anthropic",
+    "gemini",
+    "groq",
+    "productivity",
+    "knowledge-management"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/obsidian-ai-assistant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/obsidian-ai-assistant/issues"
+  },
+  "homepage": "https://github.com/yourusername/obsidian-ai-assistant#readme",
+  "funding": {
+    "type": "individual",
+    "url": "https://www.buymeacoffee.com/yourname"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "5.29.0",
+    "@typescript-eslint/parser": "5.29.0",
+    "builtin-modules": "3.3.0",
+    "esbuild": "^0.25.9",
+    "eslint": "8.56.0",
+    "tslib": "2.4.0",
+    "typescript": "4.7.4"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.7",
+    "obsidian": "latest",
+    "ollama": "^0.5.0",
+    "openai": "^4.47.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,15 +1,11 @@
 /*
-
-This CSS file will be included in your compiled plugin bundle.
-Any styles you write here will be available in Obsidian when your plugin is enabled.
-
-*/
+ * AI Assistant Plugin Styles
+ */
 
 .ai-assistant-container {
-  padding: 0;
+  padding: 15px;
   height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: var(--background-primary);
 }
 
 .ai-assistant-chat-container {
@@ -17,71 +13,63 @@ Any styles you write here will be available in Obsidian when your plugin is enab
   flex-direction: column;
   height: 100%;
   max-width: 100%;
-  background-color: var(--background-primary);
 }
 
 .ai-assistant-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 16px;
-  background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 100%);
-  color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  z-index: 10;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--background-modifier-border);
 }
 
 .ai-assistant-title {
   font-size: 18px;
   font-weight: 600;
+  color: var(--text-normal);
   margin: 0;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.ai-assistant-title-icon {
-  font-size: 20px;
 }
 
 .ai-assistant-export-button {
   padding: 6px 12px;
-  background: rgba(255, 255, 255, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 16px;
+  background: linear-gradient(to bottom, #10B981, #059669);
+  border: none;
+  border-radius: 6px;
   cursor: pointer;
   font-size: 12px;
   font-weight: 500;
   color: white;
   transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(16, 185, 129, 0.3);
 }
 
 .ai-assistant-export-button:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: linear-gradient(to bottom, #059669, #047857);
+  box-shadow: 0 4px 8px rgba(16, 185, 129, 0.4);
+  transform: translateY(-1px);
 }
 
 .ai-assistant-model-selector {
-  padding: 12px 16px;
-  background-color: var(--background-secondary);
-  border-bottom: 1px solid var(--background-modifier-border);
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .ai-assistant-model-selector label {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
   color: var(--text-muted);
-  display: block;
-  margin-bottom: 6px;
 }
 
 .ai-assistant-model-selector select {
-  width: 100%;
   padding: 8px 12px;
   border-radius: 8px;
   border: 1px solid var(--background-modifier-border);
   background-color: var(--background-primary);
   color: var(--text-normal);
-  font-size: 13px;
+  font-size: 14px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
@@ -92,30 +80,15 @@ Any styles you write here will be available in Obsidian when your plugin is enab
   box-shadow: 0 0 0 2px var(--interactive-accent-hover);
 }
 
-.ai-assistant-model-selector optgroup {
-  font-weight: 600;
-  color: var(--text-normal);
-  background-color: var(--background-primary);
-}
-
-.ai-assistant-model-selector option {
-  font-weight: normal;
-  padding: 4px 8px;
-}
-
 .ai-assistant-actions {
-  padding: 12px 16px;
-  background-color: var(--background-secondary);
-  border-bottom: 1px solid var(--background-modifier-border);
+  margin-bottom: 15px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   gap: 8px;
 }
 
 .ai-assistant-context-actions {
-  padding: 0 16px 12px;
-  background-color: var(--background-secondary);
-  border-bottom: 1px solid var(--background-modifier-border);
+  margin-bottom: 15px;
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
@@ -133,15 +106,13 @@ Any styles you write here will be available in Obsidian when your plugin is enab
   transition: all 0.2s ease;
   color: var(--text-normal);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .ai-assistant-action-button:hover {
   background: var(--background-modifier-border);
   border-color: var(--background-modifier-border-hover);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
 }
 
 .ai-assistant-context-button {
@@ -157,27 +128,27 @@ Any styles you write here will be available in Obsidian when your plugin is enab
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
   flex: 1;
   min-width: 120px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .ai-assistant-context-button:hover {
   background: var(--background-modifier-border);
   border-color: var(--background-modifier-border-hover);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
 }
 
 .ai-assistant-messages {
   flex: 1;
   overflow-y: auto;
-  padding: 16px;
+  padding: 18px;
+  margin-bottom: 15px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 12px;
   background-color: var(--background-primary);
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="%23f0f0f0"/><path d="M0 0L100 100M100 0L0 100" stroke="%23e0e0e0" stroke-width="1"/></svg>');
-  background-size: 200px;
+  gap: 18px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .ai-assistant-message {
@@ -201,7 +172,7 @@ Any styles you write here will be available in Obsidian when your plugin is enab
 }
 
 .ai-assistant-user-message {
-  background-color: #4F46E5;
+  background: linear-gradient(to bottom right, #4F46E5, #7C3AED);
   color: white;
   margin-left: auto;
   border-bottom-right-radius: 4px;
@@ -243,42 +214,42 @@ Any styles you write here will be available in Obsidian when your plugin is enab
   font-size: 1.4em;
   font-weight: 600;
   margin: 0.4em 0;
-  color: inherit;
+  color: var(--text-normal);
 }
 
 .ai-assistant-message-content h2 {
   font-size: 1.3em;
   font-weight: 600;
   margin: 0.4em 0;
-  color: inherit;
+  color: var(--text-normal);
 }
 
 .ai-assistant-message-content h3 {
   font-size: 1.2em;
   font-weight: 600;
   margin: 0.4em 0;
-  color: inherit;
+  color: var(--text-normal);
 }
 
 .ai-assistant-message-content h4 {
   font-size: 1.1em;
   font-weight: 600;
   margin: 0.4em 0;
-  color: inherit;
+  color: var(--text-normal);
 }
 
 .ai-assistant-message-content h5 {
   font-size: 1em;
   font-weight: 600;
   margin: 0.4em 0;
-  color: inherit;
+  color: var(--text-normal);
 }
 
 .ai-assistant-message-content h6 {
   font-size: 0.9em;
   font-weight: 600;
   margin: 0.4em 0;
-  color: inherit;
+  color: var(--text-normal);
 }
 
 .ai-assistant-message-content p {
@@ -364,16 +335,18 @@ Any styles you write here will be available in Obsidian when your plugin is enab
   display: flex;
   gap: 10px;
   align-items: flex-end;
-  padding: 12px 16px;
+  padding: 5px;
   background-color: var(--background-secondary);
-  border-top: 1px solid var(--background-modifier-border);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 .ai-assistant-input {
   flex: 1;
   padding: 10px 14px;
   border: 1px solid var(--background-modifier-border);
-  border-radius: 18px;
+  border-radius: 8px;
   background-color: var(--background-primary);
   font-size: 14px;
   color: var(--text-normal);
@@ -511,7 +484,7 @@ Any styles you write here will be available in Obsidian when your plugin is enab
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
   .ai-assistant-container {
-    padding: 0;
+    padding: 10px;
   }
   
   .ai-assistant-actions {
@@ -538,7 +511,6 @@ Any styles you write here will be available in Obsidian when your plugin is enab
   }
   
   .ai-assistant-input-container {
-    padding: 10px 12px;
     gap: 8px;
   }
   
