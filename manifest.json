@@ -6,8 +6,8 @@
   "styles": "styles.css",
   "minAppVersion": "0.15.0",
   "description": "AI Assistant plugin with local Ollama models and cloud API support. Boost your productivity with research assistance, content creation, auto-tagging, and related notes discovery.",
-  "author": "Your Name",
-  "authorUrl": "https://github.com/yourusername",
-  "fundingUrl": "https://www.buymeacoffee.com/yourname",
+  "author": "Tamoghna12",
+  "authorUrl": "https://github.com/Tamoghna12",
+  "fundingUrl": "https://www.buymeacoffee.com/tamoghna12",
   "isDesktopOnly": true
 }
