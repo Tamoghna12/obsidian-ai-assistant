@@ -1,4 +1,4 @@
-# 🚀 OBSIDIAN AI ASSISTANT
+# OBSIDIAN AI ASSISTANT
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/user-attachments/assets/ai-assistant-hero.gif" alt="Obsidian AI Assistant - The Future is Here" width="800" />
