@@ -1,4 +1,4 @@
-# 🚀 OBSIDIAN AI ASSISTANT
+# OBSIDIAN AI ASSISTANT
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/user-attachments/assets/ai-assistant-hero.gif" alt="Obsidian AI Assistant - The Future is Here" width="800" />
@@ -8,9 +8,9 @@
   ### 🌟 Transform Your Mind into a SUPER-POWERED AI COMMAND CENTER 🌟
   
   <p>
-    <img src="https://img.shields.io/github/stars/yourusername/obsidian-ai-assistant?style=for-the-badge&logo=github&color=gold&labelColor=000" alt="GitHub Stars" />
-    <img src="https://img.shields.io/github/forks/yourusername/obsidian-ai-assistant?style=for-the-badge&logo=git&color=purple&labelColor=000" alt="Forks" />
-    <img src="https://img.shields.io/github/downloads/yourusername/obsidian-ai-assistant/total?style=for-the-badge&color=green&labelColor=000" alt="Downloads" />
+    <img src="https://img.shields.io/github/stars/tamoghna12/obsidian-ai-assistant?style=for-the-badge&logo=github&color=gold&labelColor=000" alt="GitHub Stars" />
+    <img src="https://img.shields.io/github/forks/tamoghna12/obsidian-ai-assistant?style=for-the-badge&logo=git&color=purple&labelColor=000" alt="Forks" />
+    <img src="https://img.shields.io/github/downloads/tamoghna12/obsidian-ai-assistant/total?style=for-the-badge&color=green&labelColor=000" alt="Downloads" />
     <img src="https://img.shields.io/badge/STATUS-🔥TRENDING-red?style=for-the-badge&labelColor=000" alt="Trending" />
   </p>
   
@@ -75,7 +75,7 @@ curl -fsSL https://install.obsidian-ai.com | sh
 ```
 
 ### **Option 2: Manual Install (2 Minutes)**
-1. 📥 [**DOWNLOAD THE POWER**](https://github.com/yourusername/obsidian-ai-assistant/releases/latest) 
+1. 📥 [**DOWNLOAD THE POWER**](https://github.com/tamoghna12/obsidian-ai-assistant/releases/latest) 
 2. 📂 Drop into `.obsidian/plugins/`
 3. ⚡ Enable in Obsidian settings
 4. 🎉 **BOOM! YOU'RE A PRODUCTIVITY GOD NOW**
@@ -282,14 +282,14 @@ Just opened a note? Watch the magic:
 
 ### 🚀 **STEP 1: GET THE POWER**
 <div align="center">
-  <a href="https://github.com/yourusername/obsidian-ai-assistant/releases/latest">
+  <a href="https://github.com/tamoghna12/obsidian-ai-assistant/releases/latest">
     <img src="https://img.shields.io/badge/DOWNLOAD%20NOW-🚀%20GET%20THE%20POWER-success?style=for-the-badge&logo=download&logoColor=white&labelColor=000&color=00ff00" alt="Download Now" />
   </a>
 </div>
 
 ### ⭐ **STEP 2: SHOW LOVE**
 <div align="center">
-  <a href="https://github.com/yourusername/obsidian-ai-assistant">
+  <a href="https://github.com/tamoghna12/obsidian-ai-assistant">
     <img src="https://img.shields.io/badge/⭐%20STAR%20THIS%20REPO-Join%2050K+%20Users-yellow?style=for-the-badge&logo=github&logoColor=white&labelColor=000" alt="Star This Repo" />
   </a>
 </div>
@@ -314,7 +314,7 @@ Just opened a note? Watch the magic:
   <a href="https://www.buymeacoffee.com/obsidianai">
     <img src="https://img.shields.io/badge/☕%20Buy%20Me%20Coffee-Fuel%20the%20Magic-orange?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white&labelColor=000" alt="Buy Me Coffee" />
   </a>
-  <a href="https://github.com/sponsors/yourusername">
+  <a href="https://github.com/sponsors/tamoghna12">
     <img src="https://img.shields.io/badge/💎%20SPONSOR-Unlock%20VIP%20Features-purple?style=for-the-badge&logo=github-sponsors&logoColor=white&labelColor=000" alt="GitHub Sponsors" />
   </a>
 </div>
@@ -366,8 +366,8 @@ npm run dev  # Start your journey to greatness
 
 ### 🏆 **TOP CONTRIBUTORS**
 <div align="center">
-  <a href="https://github.com/yourusername/obsidian-ai-assistant/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=yourusername/obsidian-ai-assistant" alt="Contributors" />
+  <a href="https://github.com/tamoghna12/obsidian-ai-assistant/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=tamoghna12/obsidian-ai-assistant" alt="Contributors" />
   </a>
 </div>
 
@@ -390,13 +390,13 @@ npm run dev  # Start your journey to greatness
   <h3>🎯 EVERY SECOND YOU WAIT IS PRODUCTIVITY LOST 🎯</h3>
   
   <p>
-    <a href="https://github.com/yourusername/obsidian-ai-assistant/releases/latest">
+    <a href="https://github.com/tamoghna12/obsidian-ai-assistant/releases/latest">
       <img src="https://img.shields.io/badge/🚀%20DOWNLOAD%20NOW-Start%20Your%20AI%20Journey-success?style=for-the-badge&logo=rocket&logoColor=white&labelColor=000&color=ff6b6b" alt="Download Now" />
     </a>
   </p>
   
   <p>
-    <a href="https://github.com/yourusername/obsidian-ai-assistant">
+    <a href="https://github.com/tamoghna12/obsidian-ai-assistant">
       <img src="https://img.shields.io/badge/⭐%20STAR%20&%20SHARE-Join%20the%20Revolution-gold?style=for-the-badge&logo=star&logoColor=white&labelColor=000" alt="Star and Share" />
     </a>
   </p>
